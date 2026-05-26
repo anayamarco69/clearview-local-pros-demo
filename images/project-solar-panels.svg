@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f2f9ff"/>
+  <polygon points="190,560 600,230 1010,560" fill="#ffffff" stroke="#b8d9f5" stroke-width="8"/>
+  <rect x="340" y="390" width="520" height="170" rx="12" fill="#17415f"/>
+  <line x1="470" y1="390" x2="470" y2="560" stroke="#7cc9ff" stroke-width="8"/>
+  <line x1="600" y1="390" x2="600" y2="560" stroke="#7cc9ff" stroke-width="8"/>
+  <line x1="730" y1="390" x2="730" y2="560" stroke="#7cc9ff" stroke-width="8"/>
+  <line x1="340" y1="475" x2="860" y2="475" stroke="#7cc9ff" stroke-width="8"/>
+  <circle cx="925" cy="155" r="70" fill="#ffbd59"/>
+  <text x="600" y="115" font-family="Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle" fill="#17415f">Solar Panel Rinse</text>
+</svg>

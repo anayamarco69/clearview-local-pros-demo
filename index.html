@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ClearView Local Pros is a simple demo website for practicing GitHub to Netlify deployment." />
+  <title>ClearView Local Pros | Window Cleaning Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="#home" aria-label="ClearView Local Pros home">
+        <span class="logo-mark">CV</span>
+        <span>ClearView Local Pros</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open navigation menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#gallery">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Demo Local Service Website</p>
+        <h1>Clean windows, brighter spaces, and a simple site you can practice updating.</h1>
+        <p class="hero-text">
+          ClearView Local Pros is a fake window cleaning business created for learning how to upload a website to GitHub, connect it to Netlify, and make future updates.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Request a Quote</a>
+          <a class="button secondary" href="#gallery">View Projects</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Beginner Practice Site</h2>
+        <p>No frameworks. No terminal. Just HTML, CSS, JavaScript, and an images folder.</p>
+        <ul>
+          <li>Easy review edits</li>
+          <li>Simple gallery cards</li>
+          <li>Ready for GitHub + Netlify</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">Services</p>
+        <h2>Simple service sections you can edit later</h2>
+      </div>
+
+      <div class="cards service-grid">
+        <article class="card">
+          <h3>Residential Window Cleaning</h3>
+          <p>Interior and exterior glass cleaning for homes, condos, and small properties.</p>
+        </article>
+        <article class="card">
+          <h3>Storefront Glass Cleaning</h3>
+          <p>Front glass touch-ups for small shops, offices, and local storefronts.</p>
+        </article>
+        <article class="card">
+          <h3>Solar Panel Rinse</h3>
+          <p>Light surface rinsing for panels so the project gallery has more variety.</p>
+        </article>
+        <article class="card">
+          <h3>Screen Wipe-Downs</h3>
+          <p>Basic dust and debris wipe-downs that pair well with window service.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="reviews">
+      <div class="section-heading">
+        <p class="eyebrow">Reviews</p>
+        <h2>Fake sample reviews for practice</h2>
+      </div>
+
+      <div class="cards review-grid">
+        <article class="card review">
+          <p class="stars">★★★★★</p>
+          <p>“The demo site was easy to understand and the service cards made everything look professional.”</p>
+          <strong>— Maria R.</strong>
+        </article>
+
+        <article class="card review">
+          <p class="stars">★★★★★</p>
+          <p>“The gallery layout made it simple to show before-and-after style work without making the page complicated.”</p>
+          <strong>— Daniel K.</strong>
+        </article>
+
+        <article class="card review">
+          <p class="stars">★★★★★</p>
+          <p>“Clean, simple, and perfect for learning how website updates show up after a GitHub commit.”</p>
+          <strong>— Jasmine L.</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Project gallery</h2>
+        <p class="section-intro">These images live inside the <code>images</code> folder. Later, you will upload more pictures here and add more gallery cards.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-card">
+          <img src="images/project-home-windows.svg" alt="Illustration of a residential window cleaning project" />
+          <div>
+            <h3>Home Window Refresh</h3>
+            <p>Sample residential project card.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/project-storefront.svg" alt="Illustration of a storefront glass cleaning project" />
+          <div>
+            <h3>Storefront Glass Touch-Up</h3>
+            <p>Sample storefront project card.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/project-solar-panels.svg" alt="Illustration of a solar panel rinse project" />
+          <div>
+            <h3>Solar Panel Rinse</h3>
+            <p>Sample exterior project card.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact CTA</p>
+        <h2>Ready for a cleaner, brighter property?</h2>
+        <p>This is a fake contact section for practice. Replace the phone number, email, and city when using this template for a real business.</p>
+      </div>
+
+      <div class="contact-card">
+        <p><strong>Call/Text:</strong> <a href="tel:+15551234567">(555) 123-4567</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hello@example.com">hello@example.com</a></p>
+        <p><strong>Service Area:</strong> Orange County, CA</p>
+        <button class="button primary" id="quoteButton">Practice Quote Button</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="currentYear"></span> ClearView Local Pros. Demo website for GitHub + Netlify practice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
